@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "useTab": false,
+  "tabSize": 4,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "/",
+  "newLinkFormat": "relative",
+  "strictLineBreaks": true,
+  "readableLineLength": false
+}

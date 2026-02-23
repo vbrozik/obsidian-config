@@ -1,0 +1,5 @@
+{{- if ne .chezmoi.os "windows" -}}
+#!/bin/sh
+
+mkdir -p "{{.chezmoi.destDir}}"
+{{- end}}

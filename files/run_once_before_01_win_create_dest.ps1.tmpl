@@ -1,0 +1,6 @@
+{{- if eq .chezmoi.os "windows" -}}
+$path = "{{.chezmoi.destDir}}"
+if (!(Test-Path $path)) {
+    New-Item -ItemType Directory -Force -Path $path
+}
+{{- end}}
